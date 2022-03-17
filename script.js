@@ -1,4 +1,4 @@
-function sumar(params) {
+function sumar() {
   let number = document.getElementById("asdf").value;
   console.log(number);
   let array = [];
