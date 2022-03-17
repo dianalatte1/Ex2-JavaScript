@@ -5,13 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Suma de una arreglo</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Suma de numeros</h1>
-    <form>
-      <input type="number" id="asdf" required placeholder="enter a number" />
-      <button onclick="sumar()">sumar</button>
-    </form>
-    <script src="script.js"></script>
+    <div title="container">
+      <div class="title">Coloca la cantidad de numeros que quieras sumar</div>
+      <div class="content"></div>
+      <form action="#">
+        <input
+          type="number"
+          id="counter"
+          required
+          placeholder="enter a number"
+        />
+        <button onclick="sumar()">sumar</button>
+        <div id="results"></div>
+      </form>
+      <script src="script.js"></script>
+    </div>
   </body>
 </html>
